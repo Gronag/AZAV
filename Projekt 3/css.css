@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+h1,
+h2 {
+  color: hsl(0, 100%, 50%);
+}
+p {
+  color: darkslateblue;
+  background-color: bisque;
+  margin: 5%;
+}
+.bsp2 {
+  color: green;
+}
+.bsp4 {
+  color: darkorange;
+  background-color: blue;
+  font-family: monospace;
+  margin: 0;
+}
+#bsp1 {
+  background-color: cyan;
+  font-family: cursive;
+}
+div {
+    font-family: monospace;
+    color: aliceblue;
+    background-color: black;
+    border-style: dotted;
+    border-color: darkgreen;
+}
+span {
+    color: blue; border-style: double;
+}
