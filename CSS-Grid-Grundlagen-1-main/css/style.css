@@ -1,0 +1,35 @@
+html {
+	background: #d2dfff;
+	font-family : Arial, sans-serif;
+	margin : 10px;
+	padding : 10px;
+}
+.kuchenbackenGrundlagen {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+.grundlagenBox {
+	border : 1px solid blue;
+	background-color: rgb(204, 252, 236) ;
+}
+
+@media (min-width: 58rem) {
+	.kuchenbackenGrundlagen {
+		grid-template-columns: 1fr;
+	}
+	
+}
+@media (min-width: 75rem) {
+	.kuchenbackenGrundlagen {
+		grid-template-columns: repeat(4,1fr);
+	}
+}
+
+/* ------------ Grid Küchenutensilien ---------- */
+
+
+
+/* ------------ Grid Rezept ---------- */
+
+
