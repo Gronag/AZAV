@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15vw;
+}
+aside {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    width: 70vw;
+    padding: 1rem;
+    /* margin: 0 15vw; */
+}
+li {
+    padding: 0.5rem;
+}
+.flex-box{
+    display: flex;
+    gap: 1rem;
+}
+main{
+    background-color: beige;
+    background-image: url(./Bild.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    height: 50vh;
+    padding: 1rem;
+    width: 70vw;
+}
+.btn {
+    border-radius: 1rem;
+    border: none;
+}
+.rang1 {
+    margin-top: 200px;
+    margin-left: -150px;
+}
+.rang2 {
+    margin-top: 215px;
+    /* margin-left: 75px; */
+}
+.rang3 {
+    margin-top: 230px;
+    margin-left: -150px;
+}

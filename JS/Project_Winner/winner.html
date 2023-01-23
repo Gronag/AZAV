@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./winner.css">
+    <title>Document</title>
+</head>
+<body>
+    <aside>
+        <div class="flex-box">
+            <ol>
+                <li><strong>Winner</strong> <input type="text" placeholder="Name1" id="winner1"></li>
+                <li><strong>Winner</strong> <input type="text" placeholder="Name2" id="winner2"></li>
+                <li><strong>Winner</strong> <input type="text" placeholder="Name3" id="winner3"></li>
+            </ol>
+            <button class="btn" id="show" type="submit">Show Winner</button>
+            <button class="btn" id="delete" >Lösche Eingabe</button>
+            <button class="btn" id="reset" type="reset">Reset</button>
+        </div>
+    </aside>
+
+    <Main>
+        <h1 id="rank2" class="rang2">Name2</h1>
+        <h1 id="rank1" class="rang1">Name1</h1>
+        <h1 id="rank3" class="rang3">Name3</h1>
+    </Main>
+    <script>
+        const button_show = document.querySelector("#show")
+        const button_delete = document.querySelector("#delete")
+        const button_reset = document.querySelector("#reset")
+
+        let winner1=document.querySelector("#winner1");
+        let winner2=document.querySelector("#winner2");
+        let winner3=document.querySelector("#winner3");
+
+        let rank1 = document.querySelector("#rank1");
+        let rank2 = document.querySelector("#rank2");
+        let rank3 = document.querySelector("#rank3");
+
+        button_show.addEventListener("click", (e) => {
+            // console.log(winner1);
+            // console.log(rank1);
+            // console.log(winner1.value);
+            // console.log(rank1.innerText);
+            // console.log(winner2.value);
+            // console.log(winner3.value);
+            rank1.innerText = winner1.value;
+            rank2.innerText = winner2.value;
+            rank3.innerText = winner3.value;
+        });
+        button_delete.addEventListener("click", (e) => {
+            winner1.value = "";
+            winner2.value = "";
+            winner3.value = "";
+        })
+        button_reset.addEventListener("click", (e) => {
+            winner1.value = "";
+            winner2.value = "";
+            winner3.value = "";
+            rank1.innerText = "Name1";
+            rank2.innerText = "Name2";
+            rank3.innerText = "Name3";
+        })
+
+    </script>
+</body>
+</html>

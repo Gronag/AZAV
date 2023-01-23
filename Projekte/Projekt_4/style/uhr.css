@@ -1,0 +1,10 @@
+body {
+    background-image: url(../img/Uhr.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {
+    margin-top: 100px;
+    padding: 100px;
+    visibility: hidden;
+}

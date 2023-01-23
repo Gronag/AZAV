@@ -1,0 +1,9 @@
+body {
+    background-image: url(../img/Berg.jfif);
+    background-position: left bottom;
+    /* float: left; */
+    background-repeat: no-repeat;
+}
+p {
+    margin-left: 25%;
+}

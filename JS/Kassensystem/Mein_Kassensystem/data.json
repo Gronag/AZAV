@@ -1,0 +1,20 @@
+{
+    "articles": [
+        {"ID": 0, "article": "Banane Fair.", "price": 1.57},
+        {"ID": 1, "article": "Butter-Croissa.", "price": 3.30},
+        {"ID": 2, "article": "Hummus Tomate", "price": 0.99},
+        {"ID": 3, "article": "PfefferCiabatta", "price": 0.89},
+        {"ID": 4, "article": "Käse-Lau.stange", "price": 0.59},
+        {"ID": 5, "article": "Bluetooth Adapter", "price": 11.99},
+        {"ID": 6, "article": "Bio Ingwer Shot XXL", "price": 3.19},
+        {"ID": 7, "article": "Dall.Entcoff.Bohne", "price": 7.99},
+        {"ID": 8, "article": "Berg.Milch", "price": 3.57},
+        {"ID": 9, "article": "Ferr.Duplo Chocnut", "price": 2.29},
+        {"ID": 10, "article": "K.Stapelchips.Chi", "price": 1.19},
+        {"ID": 11, "article": "K.Stapelchips.S.B.O", "price": 1.19},
+        {"ID": 12, "article": "Kinder Schokolade", "price": 3.19},
+        {"ID": 13, "article": "Ristor.Salame Moz.", "price": 2.89},
+        {"ID": 14, "article": "Ristor.Spinaci", "price": 2.89},
+        {"ID": 15, "article": "Direktsaft Orange", "price": 1.59}
+    ]
+}
