@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+main {
+  margin: 1rem;
+}
+.answers {
+  background-color:blue;
+  padding: .2rem;
+  color: white;
+  border-radius:1rem;
+  margin: 1rem;
+  /* max-width: 15rem; */
+}
+button {
+  padding:1rem;
+  margin-top: 1rem;
+  border-radius:1rem;
+  border: none;
+}
